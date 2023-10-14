@@ -1,0 +1,30 @@
+from turtle import Turtle , Screen
+
+tim = Turtle()
+tim.shape("turtle")
+
+for _ in range(3):
+    tim.color("green")
+    tim.forward(100)
+    tim.rt(360/3)
+for _ in range(4):
+    tim.color("blue")
+    tim.forward(100)
+    tim.rt(360/4)
+for _ in range(5):
+    tim.color("yellow")
+    tim.forward(100)
+    tim.rt(360/5)
+for _ in range(6):
+    tim.color("brown")
+    tim.forward(100)
+    tim.rt(360/6)
+for _ in range(7):
+    tim.forward(100)
+    tim.rt(360/7)
+for _ in range(8):
+    tim.forward(100)
+    tim.rt(360/8)
+
+screen = Screen()
+screen.exitonclick()
